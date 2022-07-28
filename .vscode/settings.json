@@ -1,0 +1,46 @@
+{
+    // General
+    "workbench.startupEditor": "none",
+    "editor.suggestSelection": "first",
+    "editor.insertSpaces": false,
+    "editor.wrappingColumn": 0,
+    "todohighlight.isEnable": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    // Python
+    "python.pythonPath": "/usr/bin/python3",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    //"python.pythonPath": "/opt/homebrew/Caskroom/miniforge/base/envs/tensorflow/bin/python3.9",
+    //"python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniforge/base/envs/tensorflow/bin/python3.9",
+    
+    // Terminal
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "terminal.integrated.inheritEnv": false,
+    
+    // Jupyter
+    "notebook.output.textLineLimit": 10000,
+    "jupyter.askForKernelRestart": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    
+    // Markdown
+    "markdown.extension.toc.orderedList": true,
+    "markdownlint.config": {
+        "default": true,
+        "no-hard-tabs": false,
+        "line-length": false,
+        "MD024" : false,
+        "MD033" : { "allowed_elements": [ "br", "p", "a", "img", "h1", "h2", "h3" ] }
+    },
+
+    // Pandoc
+    "pandoc.htmlOptString": "-s -f gfm -t html5 --css=styles/style2.css"
+}
