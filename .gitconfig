@@ -12,3 +12,4 @@
 	required = true
 [core]
 	editor = nvim
+	excludesfile = /Users/g2jz/.gitignore_global
