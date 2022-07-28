@@ -1,0 +1,4 @@
+pane	0	1	1	:*Z	1	g2jz-2.local	:/Users/g2jz/.ssh	1	ssh	:ssh -i id_ed25519 g2jz@192.168.0.20
+pane	0	1	1	:*Z	2	g2jz-2.local	:/Users/g2jz	0	zsh	:
+window	0	1	:ssh	1	:*Z	bcea,214x66,0,0[214x33,0,0,0,214x32,0,34,1]	:
+state	0	

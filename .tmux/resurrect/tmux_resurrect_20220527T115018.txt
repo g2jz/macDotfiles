@@ -1,0 +1,6 @@
+pane	Performance	1	1	:*	1	root@server3: ~/wgdashboard/src	:/Users/g2jz	0	ssh	:ssh server@192.168.0.45
+pane	Performance	1	1	:*	2	g2jz-2.local	:/Users/g2jz	1	zsh	:
+pane	Performance	2	0	:-	1	g2jz-2.local	:/Users/g2jz	1	zsh	:
+window	Performance	1	:SSH	1	:*	e653,106x66,0,0[106x33,0,0,0,106x32,0,34,3]	off
+window	Performance	2	:Iperf	0	:-	c8df,214x66,0,0,2	off
+state	Performance	

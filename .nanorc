@@ -1,0 +1,5 @@
+set tabsize 4
+set autoindent
+set linenumbers
+set mouse
+include "/opt/homebrew/Cellar/nano/*/share/nano/*.nanorc"

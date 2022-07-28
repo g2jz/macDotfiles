@@ -1,0 +1,23 @@
+pane	Desp	1	0	:	1	g2jz-2.local	:	1	sudo	:sudo openvpn gns3.ovpn
+pane	Desp	2	0	:	1	server@server3: ~	:/Users/g2jz	1	zsh	:
+pane	Desp	2	0	:	2	g2jz-2.local	:/Users/g2jz	0	zsh	:
+pane	Desp	3	1	:*	1	server@server2: ~/docker/sftp	:/Users/g2jz	1	telnet	:telnet 172.16.253.1 5010
+pane	Desp	3	1	:*	2	g2jz-2.local	:/Users/g2jz	0	telnet	:telnet 172.16.253.1 5011
+pane	Desp	4	0	:-Z	1	g2jz-2.local	:/Users/g2jz	1	telnet	:telnet 172.16.253.1 5025
+pane	Desp	4	0	:-Z	2	g2jz-2.local	:/Users/g2jz	0	zsh	:
+pane	Desp	4	0	:-Z	3	g2jz-2.local	:/Users/g2jz	0	zsh	:
+pane	Desp	4	0	:-Z	4	g2jz-2.local	:/Users/g2jz	0	zsh	:
+pane	Desp	5	0	:	1	g2jz-2.local	:/Users/g2jz	0	zsh	:
+pane	Desp	5	0	:	2	g2jz-2.local	:/Users/g2jz	1	zsh	:
+pane	Desp	6	0	:Z	1	g2jz-2.local	:/Users/g2jz	1	zsh	:
+pane	Desp	6	0	:Z	2	g2jz-2.local	:/Users/g2jz	0	zsh	:
+pane	Desp	7	0	:	1	g2jz-2.local	:/Users/g2jz	1	zsh	:
+pane	Desp	7	0	:	2	g2jz-2.local	:/Users/g2jz	0	zsh	:
+window	Desp	1	:VPN	0	:	c8de,214x66,0,0,1	off
+window	Desp	2	:Servers	0	:	bcf1,214x66,0,0[214x33,0,0,2,214x32,0,34,7]	off
+window	Desp	3	:HostsMadrid	1	:*	3cf4,214x66,0,0[214x33,0,0,3,214x32,0,34,8]	off
+window	Desp	4	:HostsZurich	0	:-Z	f13a,214x66,0,0[214x33,0,0{107x33,0,0,4,106x33,108,0,16},214x32,0,34{107x32,0,34,14,106x32,108,34,15}]	off
+window	Desp	5	:RoutersMadrid	0	:	f733,214x66,0,0[214x33,0,0,17,214x32,0,34,37]	off
+window	Desp	6	:RoutersZurich	0	:Z	dec5,214x66,0,0[214x33,0,0,6,214x32,0,34,18]	off
+window	Desp	7	:EtherSwitchs	0	:	772f,214x66,0,0[214x33,0,0,33,214x32,0,34,34]	off
+state	Desp	

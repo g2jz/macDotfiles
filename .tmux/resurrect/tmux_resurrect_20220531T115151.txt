@@ -1,0 +1,6 @@
+pane	Desp	1	1	:*	1	g2jz-2.local	:	1	sudo	:sudo openvpn gns3.ovpn
+pane	Desp	2	0	:-	1	g2jz-2.local	:/Users/g2jz/Desktop/Desp/Config/SFTP_Server	0	zsh	:
+pane	Desp	2	0	:-	2	server@server2: ~/docker/sftp	:/Users/g2jz	1	telnet	:telnet 172.16.253.1 5010
+window	Desp	1	:VPN	1	:*	c8dd,214x66,0,0,0	off
+window	Desp	2	:telnet	0	:-	3cf3,214x66,0,0[214x33,0,0,3,214x32,0,34,6]	:
+state	Desp	
