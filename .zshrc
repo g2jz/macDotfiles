@@ -117,14 +117,27 @@ function rmk(){
 
 
 function updateRepos(){
+  DIR=$PWD
   cd /Users/g2jz/Github/
-  ls | while read -r line; do cd $line; git pull; cd ..; cd -;done
+  ls | while read -r line
+       do cd $line 
+         git pull
+         cd ..
+       done
+  cd $DIR
 }
 
 
 function statusRepos(){
+  DIR=$PWD
   cd /Users/g2jz/Github/
-  ls | while read -r line; do cd $line; git status; cd ..; cd -;done
+  ls | while read -r line 
+       do 
+         cd $line 
+         git status 
+         cd ..
+       done
+  cd $DIR
 }
 
 # User rbenv
