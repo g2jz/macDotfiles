@@ -121,8 +121,17 @@ function updateRepos(){
   ls | while read -r line; do cd $line; git pull; cd ..;done
 }
 
+
+function statusRepos(){
+  cd /Users/g2jz/Github/
+  ls | while read -r line; do cd $line; git status; cd ..;done
+}
+
+# User rbenv
+eval "$(rbenv init - zsh)"
+
 # PATH
-export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/fzf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS
+export PATH=/Users/g2jz/.gem/ruby/3.1.0/bin:/Users/g2jz/.rbenv/versions/3.1.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/fzf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS
 
 
 
