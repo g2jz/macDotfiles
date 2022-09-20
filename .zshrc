@@ -20,25 +20,25 @@ alias l='lsd --group-dirs=first'
 alias ls='lsd --group-dirs=first'
 
 alias cat='bat'
-alias oldcat='/bin/cat'
+alias catn='/bin/cat'
 
 alias vi='nvim'
-alias oldvi='/usr/bin/vi'
+alias vin='/usr/bin/vi'
 
 alias nc='netcat'
 alias oldnc='/usr/bin/nc'
 
 alias tar='gtar'
-alias oldtar='/usr/bin/tar'
+alias tarn='/usr/bin/tar'
 
 alias sed='gsed'
-alias oldsed='/usr/bin/sed'
+alias sedn='/usr/bin/sed'
 
 alias which='gwhich'
-alias oldwhich='/usr/bin/which'
+alias whichn='/usr/bin/which'
 
 alias gcc='/opt/homebrew/bin/gcc-11'
-alias oldgcc='/usr/bin/gcc'
+alias gccn='/usr/bin/gcc'
 
 # Set 'man' colors
 function man() {
@@ -55,8 +55,8 @@ function man() {
 
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 HISTFILE=~/.zsh_history
 
 
@@ -115,6 +115,11 @@ function rmk(){
 	shred -zun 10 -v $1
 }
 
+
+function updateRepos(){
+  cd /Users/g2jz/Github/
+  ls | while read -r line; do cd $line; git pull; cd ..;done
+}
 
 # PATH
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/fzf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS
