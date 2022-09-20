@@ -118,13 +118,13 @@ function rmk(){
 
 function updateRepos(){
   cd /Users/g2jz/Github/
-  ls | while read -r line; do cd $line; git pull; cd ..;done
+  ls | while read -r line; do cd $line; git pull; cd ..; cd -;done
 }
 
 
 function statusRepos(){
   cd /Users/g2jz/Github/
-  ls | while read -r line; do cd $line; git status; cd ..;done
+  ls | while read -r line; do cd $line; git status; cd ..; cd -;done
 }
 
 # User rbenv
