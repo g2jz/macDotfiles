@@ -94,6 +94,12 @@ source ~/.zsh_plugins.sh
 source /opt/homebrew/etc/profile.d/z.sh
 
 
+# Activate vi / vim mode:
+bindkey -v
+
+# Remove delay when entering normal mode (vi)
+KEYTIMEOUT=5
+
 # Change cursor shape for different vi modes
 function zle-keymap-select {
   if [[ $KEYMAP == vicmd ]] || [[ $1 = 'block' ]]; then
