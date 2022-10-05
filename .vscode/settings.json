@@ -45,4 +45,9 @@
 
     // Pandoc
     "pandoc.htmlOptString": "-s -f gfm -t html5 --css=styles/style2.css",
+    "workbench.iconTheme": "material-icon-theme",
+    "markdown.extension.italic.indicator": "_",
+    "cSpell.userWords": [
+        "decompile"
+    ],
 }
