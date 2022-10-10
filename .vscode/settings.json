@@ -4,7 +4,6 @@
     "editor.suggestSelection": "first",
     "editor.insertSpaces": false,
     "editor.wrappingColumn": 0,
-    "todohighlight.isEnable": false,
     "security.workspace.trust.untrustedFiles": "open",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
@@ -70,5 +69,18 @@
     "workbench.colorTheme": "One Dark Pro Darker",
     "cSpell.ignoreWords": [
         "Fileless"
+    ],
+    "todohighlight.isEnable": true,
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.md",
+        "**/*.py",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
     ],
 }
