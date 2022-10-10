@@ -48,7 +48,27 @@
     "workbench.iconTheme": "material-icon-theme",
     "markdown.extension.italic.indicator": "_",
     "cSpell.userWords": [
-        "decompile"
+        "ADCS",
+        "AMSI",
+        "APPLOCKER",
+        "Dcsync",
+        "decompile",
+        "defences",
+        "DSRM",
+        "Kerberosting",
+        "LSASS",
+        "NTLM",
+        "OSINT",
+        "PENTESTERS",
+        "Pentesting",
+        "REMEDIATIONS",
+        "remoting",
+        "Sysvol",
+        "Unconstraint",
+        "Zerologon"
     ],
     "workbench.colorTheme": "One Dark Pro Darker",
+    "cSpell.ignoreWords": [
+        "Fileless"
+    ],
 }
