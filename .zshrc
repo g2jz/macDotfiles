@@ -37,8 +37,8 @@ alias sedn='/usr/bin/sed'
 alias which='gwhich'
 alias whichn='/usr/bin/which'
 
-alias gcc='/opt/homebrew/bin/gcc-11'
-alias gccn='/usr/bin/gcc'
+#alias gcc='/opt/homebrew/bin/gcc-11'
+#alias gccn='/usr/bin/gcc'
 
 # Set 'man' colors
 function man() {
