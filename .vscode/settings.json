@@ -52,6 +52,7 @@
         "APPLOCKER",
         "Dcsync",
         "decompile",
+        "decompiler",
         "defences",
         "DSRM",
         "Kerberosting",
@@ -62,13 +63,19 @@
         "Pentesting",
         "REMEDIATIONS",
         "remoting",
+        "shellcode",
         "Sysvol",
         "Unconstraint",
+        "virustotal",
         "Zerologon"
     ],
     "workbench.colorTheme": "One Dark Pro Darker",
     "cSpell.ignoreWords": [
-        "Fileless"
+        "Borland",
+        "EFLAGS",
+        "Fileless",
+        "malz",
+        "rdata"
     ],
     "todohighlight.isEnable": true,
     "todohighlight.include": [
