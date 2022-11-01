@@ -204,6 +204,86 @@
                                     "key_code": "scroll_lock"
                                 }
                             ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "up_arrow"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "w"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "down_arrow"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "s"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_arrow"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "a"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_arrow"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "d"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "w"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "up_arrow"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "a"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "left_arrow"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "s"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "down_arrow"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "d"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_arrow"
+                                }
+                            ]
                         }
                     ],
                     "treat_as_built_in_keyboard": false
