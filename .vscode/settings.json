@@ -29,9 +29,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    
-    // Markdown
-    "markdown.extension.toc.orderedList": true,
     "markdownlint.config": {
         "default": true,
         "no-hard-tabs": false,
