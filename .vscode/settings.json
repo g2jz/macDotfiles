@@ -52,6 +52,7 @@
         "decompiler",
         "defences",
         "DSRM",
+        "Fileless",
         "Kerberosting",
         "LSASS",
         "NTLM",
