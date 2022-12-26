@@ -89,4 +89,6 @@
         "**/*.css",
         "**/*.scss"
     ],
+    "remote.SSH.showLoginTerminal": true,
+    "markdown.extension.toc.orderedList": true,
 }
