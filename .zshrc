@@ -37,6 +37,8 @@ alias sedn='/usr/bin/sed'
 alias which='gwhich'
 alias whichn='/usr/bin/which'
 
+alias sshPi='ssh -i ~/.ssh/pi g2jz@192.168.0.20'
+
 #alias gcc='/opt/homebrew/bin/gcc-11'
 #alias gccn='/usr/bin/gcc'
 
