@@ -73,8 +73,14 @@
         "Borland",
         "EFLAGS",
         "Fileless",
+        "Prometei",
+        "basedate",
+        "basedomain",
+        "basestring",
+        "generateddomains",
         "malz",
-        "rdata"
+        "rdata",
+        "xinchao"
     ],
     "todohighlight.isEnable": true,
     "todohighlight.include": [
