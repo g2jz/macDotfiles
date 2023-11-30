@@ -13,6 +13,8 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+LC_CTYPE=es_ES.UTF-8
+LC_ALL=es_ES.UTF-8
 
 # Manual configuration
 alias ll='lsd -lha --group-dirs=first'
@@ -37,7 +39,9 @@ alias sedn='/usr/bin/sed'
 alias which='gwhich'
 alias whichn='/usr/bin/which'
 
-alias sshPi='ssh -i ~/.ssh/pi g2jz@192.168.0.20'
+alias rpi4='ssh -i /Users/g2jz/.ssh/rpi4 g2jz@192.168.0.20'
+alias rpi3='ssh -i /Users/g2jz/.ssh/rpi3 g2jz@192.168.0.22'
+alias kodi='ssh root@192.168.0.21'
 
 #alias gcc='/opt/homebrew/bin/gcc-11'
 #alias gccn='/usr/bin/gcc'
