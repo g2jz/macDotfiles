@@ -8,7 +8,7 @@ fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+#source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -39,9 +39,8 @@ alias sedn='/usr/bin/sed'
 alias which='gwhich'
 alias whichn='/usr/bin/which'
 
-alias rpi4='ssh -i /Users/g2jz/.ssh/rpi4 g2jz@192.168.0.20'
-alias rpi3='ssh -i /Users/g2jz/.ssh/rpi3 g2jz@192.168.0.22'
-alias kodi='ssh root@192.168.0.21'
+alias rpi5='ssh -i /Users/g2jz/.ssh/rpi5 g2jz@192.168.0.20'
+alias rpi4='ssh -i /Users/g2jz/.ssh/rpi4 g2jz@192.168.0.21'
 
 #alias gcc='/opt/homebrew/bin/gcc-11'
 #alias gccn='/usr/bin/gcc'
@@ -158,7 +157,7 @@ eval "$(rbenv init - zsh)"
 # PATH
 export PATH=/Users/g2jz/.gem/ruby/3.1.0/bin:/Users/g2jz/.rbenv/versions/3.1.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/fzf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS
 
-
+source $HOMEBREW_PREFIX/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
