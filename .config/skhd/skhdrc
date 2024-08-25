@@ -8,6 +8,12 @@ ctrl + alt + cmd - r : yabai --restart-service; skhd --restart-service
 ## Open terminal
 ctrl + alt + cmd - return : "${HOME}"/.config/skhd/scripts/open_iterm2.sh
 
+## Open Chrome
+ctrl + alt + cmd + shift - c : open "/Applications/Google Chrome.app"
+
+## Open Spotify
+ctrl + alt + cmd + shift - s : open "/Applications/Spotify.app"
+
 ## Kill window
 ctrl + alt + cmd - q : skhd -k "cmd - q"
 ctrl + alt + cmd - w : skhd -k "cmd - w"
@@ -32,8 +38,6 @@ ctrl + alt + cmd - 0x27 : yabai -m window --swap north # 0x21 is the "{" key
 ctrl + alt + cmd - 0x2A : yabai -m window --swap south # 0x1E is the "}" key
 
 ## Navigation
-#ctrl + alt + cmd - tab : yabai -m window --focus next
-#ctrl + alt + cmd + shift - tab : yabai -m window --focus prev
 ctrl + alt + cmd - left : yabai -m window --focus west
 ctrl + alt + cmd - down : yabai -m window --focus south
 ctrl + alt + cmd - up : yabai -m window --focus north
@@ -59,6 +63,10 @@ ctrl + alt + cmd + shift - 5 : yabai -m window --space 5;
 ################################################################
 ############################# UNUSED ###########################
 ################################################################
+
+## Rotate window
+#ctrl + alt + cmd - tab : skhd -k "cmd - tab"
+#ctrl + alt + cmd + shift - tab : skhd -k "cmd + shift - tab"
 
 ## Focus space 1
 #ctrl + alt + cmd - 1 : index=1; eval "$(yabai -m query --spaces | jq --argjson index "${index}" -r '(.[] | select(.index == $index).windows[0]) as $wid | if $wid then "yabai -m window --focus \"" + ($wid | tostring) + "\"" else "skhd --key \"ctrl - " + (map(select(."is-native-fullscreen" == false)) | index(map(select(.index == $index))) + 1 % 10 | tostring) + "\"" end')"
