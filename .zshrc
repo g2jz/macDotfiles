@@ -39,6 +39,8 @@ alias sedn='/usr/bin/sed'
 alias which='gwhich'
 alias whichn='/usr/bin/which'
 
+alias tmux='tmux -u'
+
 alias rpi5='ssh -i /Users/g2jz/.ssh/rpi5 g2jz@192.168.0.20'
 alias rpi4='ssh -i /Users/g2jz/.ssh/rpi4 g2jz@192.168.0.21'
 
