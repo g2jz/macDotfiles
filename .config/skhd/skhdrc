@@ -12,9 +12,6 @@ ctrl + alt + cmd - return : "${HOME}"/.config/skhd/scripts/open_iterm2.sh
 ctrl + alt + cmd - q : skhd -k "cmd - q"
 ctrl + alt + cmd - w : skhd -k "cmd - w"
 
-## Hide window
-ctrl + alt + cmd - h : skhd -k "cmd - h"
-
 ## Toggle window fullscreen zoom
 ctrl + alt + cmd - f : yabai -m window --toggle zoom-fullscreen
 ctrl + alt + cmd + shift - f : yabai -m window --toggle native-fullscreen
@@ -186,4 +183,7 @@ ctrl + alt + cmd + fn - 5 : yabai -m window --space 5;
 
 ## Open Spotify
 #ctrl + alt + cmd - s : open "/Applications/Spotify.app"
+
+## Hide window
+#ctrl + alt + cmd - h : skhd -k "cmd - h"
 
