@@ -8,12 +8,6 @@ ctrl + alt + cmd - r : yabai --restart-service; skhd --restart-service
 ## Open terminal
 ctrl + alt + cmd - return : "${HOME}"/.config/skhd/scripts/open_iterm2.sh
 
-## Open Chrome
-ctrl + alt + cmd - c : open "/Applications/Google Chrome.app"
-
-## Open Spotify
-ctrl + alt + cmd - s : open "/Applications/Spotify.app"
-
 ## Kill window
 ctrl + alt + cmd - q : skhd -k "cmd - q"
 ctrl + alt + cmd - w : skhd -k "cmd - w"
@@ -186,3 +180,10 @@ ctrl + alt + cmd + fn - 5 : yabai -m window --space 5;
 
 ## Close active application
 #ctrl + alt + cmd - backspace : $(yabai -m window $(yabai -m query --windows --window | jq -re ".id") --close)
+
+## Open Chrome
+#ctrl + alt + cmd - c : open "/Applications/Google Chrome.app"
+
+## Open Spotify
+#ctrl + alt + cmd - s : open "/Applications/Spotify.app"
+
