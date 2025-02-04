@@ -43,6 +43,8 @@ alias tmux='tmux -u'
 
 alias rpi5='ssh -i /Users/g2jz/.ssh/rpi5 g2jz@192.168.0.20'
 alias rpi4='ssh -i /Users/g2jz/.ssh/rpi4 g2jz@192.168.0.21'
+alias mountMusic='sshfs -o ssh_command="ssh -i /Users/g2jz/.ssh/rpi5" g2jz@192.168.0.20:/mnt/Gaizka5TB/Media/Musica /Volumes/Raspi'
+alias acestream='open -a Docker; sleep 20; docker run -d --platform=linux/amd64 --rm -p 6878:6878 blaiseio/acelink 1>/dev/null'
 
 #alias gcc='/opt/homebrew/bin/gcc-11'
 #alias gccn='/usr/bin/gcc'
