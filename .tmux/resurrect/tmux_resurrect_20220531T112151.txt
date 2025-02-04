@@ -1,6 +1,0 @@
-pane	Desp	1	0	:-	1	g2jz-2.local	:	1	sudo	:sudo openvpn gns3.ovpn
-pane	Desp	2	1	:*	1	g2jz-2.local	:/Users/g2jz/Desktop/Desp/Web_DNS_Server/Web	0	zsh	:
-pane	Desp	2	1	:*	2	server@server1: ~/docker/wordpress	:/Users/g2jz	1	telnet	:telnet 172.16.253.1 5010
-window	Desp	1	:VPN	0	:-	c8dd,214x66,0,0,0	off
-window	Desp	2	:telnet	1	:*	3cf3,214x66,0,0[214x33,0,0,3,214x32,0,34,6]	:
-state	Desp	

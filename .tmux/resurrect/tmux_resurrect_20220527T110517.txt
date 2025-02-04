@@ -1,3 +1,0 @@
-pane	Performance	1	1	:*	1	root@e9e177c13090: ~/wgdashboard/src	:/Users/g2jz	1	ssh	:ssh server@192.168.0.45
-window	Performance	1	:SSH	1	:*	c8dd,214x66,0,0,0	off
-state	Performance	

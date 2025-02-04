@@ -1,3 +1,0 @@
-pane	Desp	1	1	:*	1	g2jz-2.local	:/Users/g2jz	1	ssh	:ssh server@192.168.0.45
-window	Desp	1	:SSH	1	:*	c8dd,214x66,0,0,0	off
-state	Desp	
