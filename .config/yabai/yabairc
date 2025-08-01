@@ -45,6 +45,7 @@ yabai -m rule --add app="^Activity Monitor$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Path Finder$" manage=off
 yabai -m rule --add app="^The Unarchiver$" manage=off
+yabai -m rule --add app="^mmex$" manage=off
 
 echo "yabai configuration loaded.."
 
